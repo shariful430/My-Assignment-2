@@ -1,9 +1,54 @@
+*{
+  background-color: #f7f7f7;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.quicksand-font-normal {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+.orange{
+  color: orange;
+}
+.sky-blue{
+  color: skyblue;
+}
+.light-blue{
+  color: #05D4DF;
+}
+.clr{
+  color: #5D58EF;
+}
+ 
+
+/* nav related styles */
+.navbar{
+  max-width: 1158px;
+  justify-content: space-around;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 32px;
+  font-size: 1.25rem;
+  font-weight: 500px;
+}
+.nav-link{
+  text-decoration: none;
+} 
+.btn-primary{
+ background-color: orange;
+ color: white;
+ width: 197px;
+height: 50px;
+border: none;
+border-radius: 12px;
+font-size: 1.25rem;
+font-weight: 600;
+}
